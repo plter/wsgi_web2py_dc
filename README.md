@@ -1,7 +1,7 @@
 # wsgi_web2py_dc
 WSGI with web2py docker container 
 
-# How to use  
+# Quick start  
 
 1. `docker run -it -p 80:80 -p 443:443 xtiqin/wsgi_web2py`
 1. `/opt/lampp/lampp start`  
