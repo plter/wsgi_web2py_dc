@@ -23,7 +23,7 @@ if not configuration.get('app.production'):
             (T('PHPInfo'), False, '/dashboard/phpinfo.php'),
             (T('TOP YUNP'), False, 'https://yunp.top'),
             (T('Source code'), False, 'https://github.com/plter/wsgi_web2py_dc'),
-            (T('wsgi_web2py Docker image'), False, 'https://cloud.docker.com/repository/docker/xtiqin/wsgi_web2py')
+            (T('wsgi_web2py Docker image'), False, 'https://hub.docker.com/r/xtiqin/wsgi_web2py')
         ]),
         (T('This App'), False, '#', [
             (T('Design'), False, URL('admin', 'default', 'design/%s' % _app)),
